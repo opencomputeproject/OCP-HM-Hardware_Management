@@ -1,1 +1,1 @@
-# Hardware-Management
+# Open Compute Project Foundation : Hardware Management top-level project
