@@ -196,7 +196,7 @@ links.
 
 #### 4.1 Architectural Example  
 
-![SMC Architectural Example Diagram](assets/images/smc_arch.png)
+![SMC Architectural Example Diagram](SMCSpecImage/smc_arch.png)
 
 SMC includes all API definitions required for managing a peripheral device from an out of band
 management controller (BMC) in the most common configuration. While other configurations may
@@ -218,7 +218,7 @@ SMC devices *shall* implement DMTF DSP0236 ([Management Component Transport Prot
 Devices meeting this specification *shall* implement DMTF DSP0233 ([Management Component Transport Protocol (MCTP) I3C Transport Binding Specification](https://www.dmtf.org/dsp/DSP0233)) OR DSP0237 ([Management Component Transport Protocol (MCTP) SMBus/I2C Transport Binding Specification](https://www.dmtf.org/dsp/DSP0237)) OR DSP0238 ([Management Component Transport Protocol (MCTP) PCIe VDM Transport Binding Specification](https://www.dmtf.org/dsp/DSP0238)). Other physical bindings such as USB, that have MCTP bindings are allowed. Devices *shall* implement these protocols without requiring an on-board i2c mux in the protocol path.
 
 <p align="center">
-  <img width="586" height="342" src="assets/images/smc_layers.png">
+  <img width="586" height="342" src="SMCSpecImage/smc_layers.png">
 </p>
 
 #### 5.2 Protocol layers supported
