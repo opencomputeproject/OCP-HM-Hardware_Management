@@ -12,7 +12,7 @@ The Manufacturer ID shall be set to 0x00A76F.  The Manufacturer ID is the first 
 | [0xD0](#D0-D3) | [MHS CRPS v1.05](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
 | [0xD1](#D0-D3) | [MHS CRPS v1.05](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
 | [0xD2](#D0-D3) | [MHS CRPS v1.05](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
-| [0xD2](#D0-D3) | [MHS CRPS v1.05](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
+| [0xD3](#D0-D3) | [MHS CRPS v1.05](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
 
 
 
