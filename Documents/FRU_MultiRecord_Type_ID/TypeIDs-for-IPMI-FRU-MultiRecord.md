@@ -11,10 +11,10 @@ The OCP Specification column contains the specification and version which first 
 | [0xC0](#C0)    | [NIC 3.0 v1.0](https://www.opencompute.org/wiki/Server/NIC) |
 | [0xC1](#C1)    | [DC-SCM 2.0 for HPM FRU](https://www.opencompute.org/w/index.php?title=Server/MHS) |
 | [0xC2](#C2)    | [MHS CRPS v1.05](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
-| [0xD0](#D0-D3) | [MHS CRPS v1.6](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
-| [0xD1](#D0-D3) | [MHS CRPS v1.6](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
-| [0xD2](#D0-D3) | [MHS CRPS v1.6](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
-| [0xD3](#D0-D3) | [MHS CRPS v1.6](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
+| [0xD0](#D0-D3) | [NIC 3.0 v1.5](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
+| [0xD1](#D0-D3) | [NIC 3.0 v1.5](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
+| [0xD2](#D0-D3) | [NIC 3.0 v1.6](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
+| [0xD3](#D0-D3) | [NIC 3.0 v1.6](https://www.opencompute.org/w/index.php?title=Server/MHS/DC-MHS-Specs-and-Designs) |
 
 # Type ID Values
 
