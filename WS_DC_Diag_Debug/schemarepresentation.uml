@@ -1,0 +1,50 @@
+@startuml
+title Node Codecurency Record Relationships
+
+class Node {
+    + nodeId : string
+    + nodeType : string
+    + hostname : string
+    + networkConfiguration : object
+    + physicalLocation : object
+}
+
+class Assembly {
+    + assemblyName : string
+    + assemblyId : string
+    + manufacturerSerialNumber : string
+    + physicalLocation : object
+    + logicalAssociation : object
+}
+
+class Component {
+    + componentType : enum [CPU, Memory, NIC, Storage, GPU, PSU, Fan, BIOS, BMC]
+    + componentId : string
+    + manufacturerSerialNumber : string
+    + physicalLocation : object
+    + logicalAssociation : object
+    + firmware : array
+    + configuration : array
+}
+
+class Firmware {
+    + version : string
+    + lastUpdated : date-time
+    + securityVersionNumber : int
+    + minimumSecurityVersionNumber : int
+    + imageRole : enum [Active, Recovery, Standby]
+}
+
+class Configuration {
+    + name : string
+    + value : string
+    + description : string
+}
+
+Node "1" --> "*" Assembly : contains
+Assembly "1" --> "*" Component : contains
+Assembly "1" --> "*" Assembly : subAssemblies
+Component "1" --> "*" Firmware : has
+Component "1" --> "*" Configuration : has
+
+@enduml
